@@ -5,4 +5,4 @@
 - Corso di Web Design
 - Baccan Matteo
 - Anno accademico 2023/2024
-- Realizzazione di un sito web monopagina per l'azienda ...
+- Realizzazione di un sito web monopagina come portfolio personale
