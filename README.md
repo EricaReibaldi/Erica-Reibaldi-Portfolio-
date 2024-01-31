@@ -6,4 +6,3 @@
 - Baccan Matteo
 - Anno accademico 2023/2024
 - Realizzazione di un sito web monopagina come portfolio personale
-- https://ericareibaldiportfolio.netlify.app/
