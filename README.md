@@ -6,3 +6,6 @@
 - Baccan Matteo
 - Anno accademico 2023/2024
 - Realizzazione di un sito web monopagina come portfolio personale
+
+#Indirizzo di pubblicazione Netlify
+Il repository è pubblicato a questo indirizzo https://ericareibaldiportfolio.netlify.app/
