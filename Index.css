@@ -6,6 +6,9 @@
     .mybody{
       background-color: rgb(235, 230, 230);
     }
+    h1{
+      color : blue
+    }
     .myfooter{
       background-color:rgb(110, 41, 110);
       text-align: center;
