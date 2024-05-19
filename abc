@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="index.css">
+  <title>Erica Reibaldi Portfolio</title>
+</head>
+<body>
+  <div class="myheader">
+    <img src="https://via.placeholder.com/50x50" alt="Logo">
+    <a href="#chisono">Chi sono</a>
+    <a href="#progetti">Progetti</a>
+    <a href="#dovetrovarmi">Dove trovarmi</a>
+    <a href="#contatti">Contatti</a>
+  </div>
+  <div class="mybody">
+    <h1 id="chisono">Chi sono</h1>
+    <h2 class="section-title">Chi sono</h2>
+    <p> 
+      Sono una studentessa di Fashion Design che ha fatto della creatività la sua passione. Attraverso il mio percorso di studio, ho affinato le mie competenze nella progettazione, modellistica e confezione, dando vita a pezzi unici che raccontano delle storie attraverso la mia visione della moda.
+      Scoprite il mio portfolio online, una vetrina virtuale dei miei progetti più recenti. 
+      Condivido il mio processo creativo in un luogo dove potrete conoscere meglio la mente dietro i miei progetti.
+      Sono sempre aperta a nuove collaborazioni e progetti stimolanti per lavorare insieme.
+    </p>
+    
+    <h1 id="progetti">Progetti</h1>
+    <h2 class="section-title">Progetti</h2>
+
+    <h1 id="dovetrovarmi">Dove trovarmi</h1>
+    <h2 class="section-title">Dove trovarmi</h2>
+    <p>Via abc 123, Torino, 10024</p>
+    <img src="https://via.placeholder.com/400x200" alt="Mappa">
+
+    <div class="myfooter">
+      <h1 id="contatti">Contatti</h1>
+      <h2 class="section-title">Contatti</h2>
+      <p class="contact-info">
+        E-mail: reibaldierica@gmail.com <br/>
+        Instagram: @ericareibaldi <br/>
+        Telefono: 012 3456789 <br/>
+        Linkedin: Erica Reibaldi
+      </p>
+    </div>
+  </div>
+</body>
+</html>
