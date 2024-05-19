@@ -1,16 +1,61 @@
-    .myheader {
-      background-color:rgb(158, 121, 157);
-      text-align: right;
-      padding-right: 15px;
-    }
-    .mybody{
-      background-color: rgb(235, 230, 230);
-    }
-    h1{
-      color : rgb(44, 1, 80)
-    }
-    .myfooter{
-      background-color:rgb(110, 41, 110);
-      text-align: center;
-    }
+body {
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
 
+.myheader {
+  background-color: #f8f8f8;
+  padding: 10px;
+  text-align: center;
+}
+
+.myheader img {
+  vertical-align: middle;
+}
+
+.myheader a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+.myheader a:hover {
+  text-decoration: underline;
+}
+
+.mybody {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2em; /* Dimensione per il titolo principale */
+  margin-bottom: 0.5em;
+}
+
+h2.section-title {
+  color: rgb(44, 1, 80);
+  font-size: 1.5em;
+  margin-top: 0.5em;
+}
+
+p {
+  line-height: 1.6;
+  margin-top: 1em;
+}
+
+.myfooter {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-info {
+  font-family: 'Times New Roman', serif;
+  font-size: 1em;
+  color: rgb(245, 208, 248);
+}
