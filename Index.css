@@ -6,8 +6,8 @@
     .mybody{
       background-color: rgb(235, 230, 230);
     }
-    h1{
-      color : rgb(44, 1, 80)
+    .mybody h1{
+      color : rgb(187, 135, 229)
     }
     .myfooter{
       background-color:rgb(110, 41, 110);
