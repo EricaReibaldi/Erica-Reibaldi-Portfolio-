@@ -6,16 +6,21 @@
     }
     .mybody{
       background-color: rgb(235, 230, 230);
+    
     }
+
     #logo {
       max-width: 40px;
       height: 50px;
     }
-    .mybody h1{
-      color : rgb(187, 135, 229)
+    .mybody h2{
+      color : rgb(44, 1, 80);
+      font-family:Georgia, 'Times New Roman', Times, serif;
     }
     .myfooter{
       background-color:rgb(110, 41, 110);
       text-align: center;
-      color:white
+      color:white;
+      font-family: Georgia, 'Times New Roman', Times, serif;
     }
+  
