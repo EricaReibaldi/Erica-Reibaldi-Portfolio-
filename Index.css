@@ -7,10 +7,6 @@
       align-items: center;
     }
     
-
-    .mybody{
-      background-color: rgb(235, 230, 230);
-    }
      #logo {
       max-width: 50px;
       height: 60px;
@@ -24,10 +20,18 @@
       background-color:rgba(77, 10, 80, 0.664);
       font-family:Georgia, 'Times New Roman', Times, serif;
     }
+
+    .mybody{
+      background-color: rgb(235, 230, 230);
+      text-align: right;
+      padding-bottom: 10px;
+    }
+
     .mybody h2{
       color : rgb(44, 1, 80);
       font-family:Georgia, 'Times New Roman', Times, serif;
     }
+    
     .myfooter{
       background-color:rgb(110, 41, 110);
       text-align: center;
