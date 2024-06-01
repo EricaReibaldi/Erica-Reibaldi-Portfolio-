@@ -1,23 +1,29 @@
     header {
       display: flex;
+      flex-direction: row;
       background-color:rgb(158, 121, 157);
-      text-align: right;
+      justify-content: space-between;
       padding: 15px;
       align-items: center;
-      justify-content: center;
     }
-    header a{
-      padding: 10px;
-    }
+    
 
     .mybody{
       background-color: rgb(235, 230, 230);
     }
+     #logo {
 
-    #logo {
-      padding-right: 70%;
       max-width: 50px;
       height: 60px;
+    }
+    
+    #menu a{
+      font-size: 10px;
+      color:rgb(44, 1, 80);
+      padding: 10px;
+      margin: 20px;
+      background-color:rgb(255, 255, 255);
+      font-family:Georgia, 'Times New Roman', Times, serif;
     }
     .mybody h2{
       color : rgb(44, 1, 80);
