@@ -18,11 +18,11 @@
     }
     
     #menu a{
-      font-size: 10px;
-      color:rgb(44, 1, 80);
+      font-size: 15px;
+      color:rgb(255, 255, 255);
       padding: 10px;
       margin: 20px;
-      background-color:rgb(255, 255, 255);
+      background-color:rgba(77, 10, 80, 0.664);
       font-family:Georgia, 'Times New Roman', Times, serif;
     }
     .mybody h2{
