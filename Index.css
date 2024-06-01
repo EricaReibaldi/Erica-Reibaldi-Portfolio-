@@ -12,7 +12,6 @@
       background-color: rgb(235, 230, 230);
     }
      #logo {
-
       max-width: 50px;
       height: 60px;
     }
@@ -21,7 +20,7 @@
       font-size: 15px;
       color:rgb(255, 255, 255);
       padding: 10px;
-      margin: 20px;
+      margin: 8px;
       background-color:rgba(77, 10, 80, 0.664);
       font-family:Georgia, 'Times New Roman', Times, serif;
     }
