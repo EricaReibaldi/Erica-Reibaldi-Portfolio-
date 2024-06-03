@@ -7,7 +7,7 @@
       align-items: center;
     }
     
-     #logo {
+    #logo {
       max-width: 50px;
       height: 60px;
     }
@@ -25,6 +25,8 @@
       background-color: rgb(235, 230, 230);
       text-align: right;
       padding-bottom: 10px;
+      padding-right: 10px;
+      padding-left: 25px;
     }
 
     .mybody h2{
@@ -32,6 +34,18 @@
       font-family:Georgia, 'Times New Roman', Times, serif;
     }
     
+    .progetti{
+      color : rgb(44, 1, 80);
+      background-color: rgb(46, 155, 51)
+    }
+    
+    .info{ 
+      background-color: rgb(235, 230, 230); 
+      display: flex;
+      flex-direction: row;
+      gap: 80px;
+    }
+
     .myfooter{
       background-color:rgb(110, 41, 110);
       text-align: center;
