@@ -43,7 +43,11 @@
     }
 
     #form{
-     padding-left: 200px;
+      background-color: rgb(235, 230, 230);
+      text-align: center;
+      padding-bottom: 10px;
+      padding-right: 10px;
+      padding-left: 25px;
     }
 
     .myfooter{
@@ -52,4 +56,5 @@
       color:white;
       font-family: Georgia, 'Times New Roman', Times, serif;
     }
+    
   
