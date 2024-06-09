@@ -25,7 +25,7 @@
       background-color: rgb(235, 230, 230);
       text-align: right;
       padding-right: 15px;
-      padding-left: 35px;
+      padding-left: 30px;
       padding-bottom: 10px;
     }
 
@@ -64,4 +64,6 @@
       font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
-  
+    .myfooter a{
+    color: white;
+  }
