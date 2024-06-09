@@ -99,6 +99,26 @@
 </pre>  
 </div>
 
+<span class="button" onclick="popup()">Clicca Qui</span>
+
+<div id="popup" style="display: none;">
+    <!-- X di chiusura -->
+    <span style="float: right; cursor: pointer;" onclick="popup()">X</span>
+    <h1>SEGUIMI</h1>
+    <p>Visita il mio profilo Instagram per rimanere aggiornato!</p>
+</div>
+
+<script>
+    function popup() {
+        var popup = document.getElementById("popup");
+        if (popup.style.display == "block") {
+            popup.style.display = "none";
+        } else {
+            popup.style.display = "block";
+        }
+    }
+</script>
+
 <div id="dovetrovarmi">
   <h2>Dove trovarmi</h2>
       <p>Via abc 123, Torino, 10024</p>
