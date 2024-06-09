@@ -166,8 +166,8 @@ header {
   width: 100%;
   margin-bottom: 10px;
   background-color: #ffffff;
-  padding: 10px;
-  width: 35%;
+  padding: 5px;
+  width: 70%;
   border-radius: 5px;
   font-size: 15px;
   position:static;
@@ -178,7 +178,7 @@ header {
   border-radius: 5px;
    font-size: 15px;
    position:static;    
-   width: 35%; 
+   width: 50%; 
    padding: 5px;
    border-color:rgb(104, 100, 104)
    }
