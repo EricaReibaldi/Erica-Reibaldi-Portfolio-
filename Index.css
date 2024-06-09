@@ -56,6 +56,12 @@ header {
       background-color: rgb(235, 230, 230);
     } 
 
+    .progetti img{
+      width: 400px;
+      height: 250px;
+    }
+
+
     .info{ 
       background-color: rgb(235, 230, 230); 
       display: flex;
