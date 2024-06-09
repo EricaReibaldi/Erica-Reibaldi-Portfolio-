@@ -86,7 +86,7 @@ header {
       display: flex;
       flex-direction: row;
       align-items: center;
-      gap: 200px; /* Ridotto il gap per migliorare la responsività */
+      gap: 100px; /* Ridotto il gap per migliorare la responsività */
       padding-left: 20%; /* Ridotto il padding per migliorare la responsività */
       padding-right: 20%; /* Ridotto il padding per migliorare la responsività */
     }
@@ -94,7 +94,7 @@ header {
     .info a{
       color: rgb(0, 0, 0);
     }
-
+    
     #form{
       background-color: rgb(170, 129, 170);
       text-align: center;
@@ -160,6 +160,18 @@ header {
   .project {
     flex-direction: column;
   }
+}
+
+#fname {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 10px;
+  width: 35%;
+  border-radius: 5px;
+  font-size: 15px;
+  position:static;
+  border-color:rgb(104, 100, 104)
 }
 
 @media (max-width: 480px) {
