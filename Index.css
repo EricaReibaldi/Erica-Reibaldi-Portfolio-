@@ -42,6 +42,7 @@ header {
       flex-direction: row;
       align-items: center;
       gap: 200px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
     }
 
     .chisono img{
@@ -54,20 +55,31 @@ header {
     .progetti{
       text-align: center;
       background-color: rgb(235, 230, 230);
+      font-family:Georgia, 'Times New Roman', Times, serif;
     } 
 
-    .progetti img{
+    #foto1{
       width: 400px;
       height: 250px;
     }
+
     #testo1{
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: left;
-    
+    }
 
-  
+    #testo2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    } 
+
+    #foto2{
+      width: 400px;
+      height: 250px;
+    }
+
     .info{ 
-      background-color: rgb(235, 230, 230); 
+      background-color: rgb(170, 129, 170); 
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -81,7 +93,7 @@ header {
     }
 
     #form{
-      background-color: rgb(235, 230, 230);
+      background-color: rgb(170, 129, 170);
       text-align: center;
       padding-bottom: 10px;
       padding-right: 10px;
