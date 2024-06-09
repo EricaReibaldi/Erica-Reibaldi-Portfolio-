@@ -60,8 +60,26 @@ header {
       width: 400px;
       height: 250px;
     }
+    .project {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px; /* Spazio tra il testo e le immagini */
+    }
 
+    .project-text {
+      flex: 1;
+    }
 
+    .project-images {
+      display: flex;
+      flex-direction: column;
+      gap: 10px; /* Spazio tra le immagini */
+    }
+
+    img {
+      max-width: 200px; /* Dimensioni massime delle immagini */
+      height: auto;
+    }
     .info{ 
       background-color: rgb(235, 230, 230); 
       display: flex;
