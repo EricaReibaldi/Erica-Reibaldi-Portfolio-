@@ -133,7 +133,7 @@ header {
     .button {
       display: inline-block;
       padding: 10px 20px;
-      background-color: #270623;
+      background-color: #130311;
       color: white;
       cursor: pointer;
   }
@@ -144,7 +144,7 @@ header {
       left: 50%;
       transform: translate(-50%, -50%);
       padding: 20px;
-      background-color: #ebb1f6;
+      background-color: #e999e9;
       color: white;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
