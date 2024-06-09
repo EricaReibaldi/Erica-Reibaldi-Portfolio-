@@ -58,6 +58,22 @@ header {
       font-family:Georgia, 'Times New Roman', Times, serif;
     } 
 
+#eden{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(170, 129, 170); 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px; /* Ridotto il gap per migliorare la responsività */
+  padding-left: 20%; /* Ridotto il padding per migliorare la responsività */
+  padding-right: 20%; /* Ridotto il padding per migliorare la responsività */
+}
+
+eden img{
+  width: 100%; /* Imposta la larghezza al 100% per l'immagine */
+  height: auto; /* Mantiene il rapporto d'aspetto */
+  max-width: 400px;
+}
     #foto1{
       width: 100%;
       height: auto;
@@ -232,3 +248,4 @@ header {
   .project-images img {
     max-width: 100px; /* Dimensioni massime ridotte per schermi piccoli */
   }
+}
