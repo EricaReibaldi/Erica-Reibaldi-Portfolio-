@@ -7,7 +7,6 @@ body h2{
   color : rgb(44, 1, 80);
   font-size: 2em;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  text-shadow: violet 0 0 10px;
 }
 
 header {
@@ -47,9 +46,8 @@ header {
     }
 
     .chisono img{
-      width: 100%;
+      width: 337px;
       height: auto;
-      max-width: 337px;
       padding-top: 4%;
     } 
 
