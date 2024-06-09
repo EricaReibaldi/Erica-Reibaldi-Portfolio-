@@ -67,3 +67,9 @@
     .myfooter a{
     color: white;
   }
+
+  #dovetrovarmi{
+    width: 100%;
+    border: 0;
+    left: 0;
+  }
