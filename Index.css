@@ -58,44 +58,32 @@ header {
       font-family:Georgia, 'Times New Roman', Times, serif;
     } 
 
+.container1{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 10px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+ 
+
 #eden{
   font-family:Georgia, 'Times New Roman', Times, serif;
   background-color: rgb(170, 129, 170); 
   display: flex;
   flex-direction: row;
-  align-items: center;
   gap: 100px; /* Ridotto il gap per migliorare la responsività */
   padding-left: 20%; /* Ridotto il padding per migliorare la responsività */
   padding-right: 20%; /* Ridotto il padding per migliorare la responsività */
 }
 
-eden img{
-  width: 100%; /* Imposta la larghezza al 100% per l'immagine */
-  height: auto; /* Mantiene il rapporto d'aspetto */
-  max-width: 400px;
+#foto1{
+  width: 400px;
+  height: 225px;
 }
-    #foto1{
-      width: 100%;
-      height: auto;
-      max-width: 400px;
-    }
-
-    #testo1{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align: left;
-    }
-
-    #testo2{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align: right;
-    } 
-
-    #foto2{
-      width: 100%; /* Imposta la larghezza al 100% per l'immagine */
-      height: auto; /* Mantiene il rapporto d'aspetto */
-      max-width: 400px;
-    }
-
+   
     .info{
       font-family: Georgia, 'Times New Roman', Times, serif; 
       background-color: rgb(170, 129, 170); 
