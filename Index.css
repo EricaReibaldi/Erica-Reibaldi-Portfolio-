@@ -63,14 +63,7 @@ header {
       font-family:Georgia, 'Times New Roman', Times, serif;
     } 
 
-.container1{
-  display: flex;
-  flex-direction: row;
-  gap: 100px;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-bottom: 10px;
-}
+
 
 #eden{
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -87,29 +80,22 @@ header {
   height: 225px;
 }
 
-.container2{
+.container{
   display: flex;
   flex-direction: row;
   gap: 100px;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-bottom: 10px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #foto2 {
   width: 400px;
   height: 225px;
 }
-.container3 {
-  display: flex;
-  flex-direction: row;
-  gap: 100px;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-bottom: 10px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-}
+
+
 
 #foto3 {
   width: 185px;
