@@ -32,6 +32,11 @@ header {
       font-family:Georgia, 'Times New Roman', Times, serif;
     }
 
+#menu a:hover{
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
     .chisono{
       background-color: rgb(235, 230, 230);
       text-align: right;
@@ -65,9 +70,7 @@ header {
   padding-left: 20%;
   padding-right: 20%;
   padding-bottom: 10px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
 }
- 
 
 #eden{
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -84,6 +87,20 @@ header {
   height: 225px;
 }
 
+.container2{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 10px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#foto2 {
+  width: 400px;
+  height: 225px;
+}
 .container3 {
   display: flex;
   flex-direction: row;
@@ -142,7 +159,12 @@ header {
        padding: 5px;
        border-color:rgb(104, 100, 104)
        }
-      
+    
+    #submit:hover{ 
+      background-color:rgb(71, 10, 71);
+      color: white;
+    }
+
     #dovetrovarmi iframe{
       width: 100%;
       border: 0;
@@ -156,6 +178,8 @@ header {
       color: white;
       cursor: pointer;
   }
+
+
 
   #popup {
       position: fixed;
