@@ -14,13 +14,14 @@ header {
   flex-direction: row;
   background-color: rgb(158, 121, 157);
   justify-content: space-between;
-  padding: 15px;
+  padding: 10px;
   align-items: center;
+  position:relative;
 }
 
 #logo {
   max-width: 50px;
-  height: 60px;
+  max-height: 50px;
 }
 
 #menu a {
@@ -37,7 +38,56 @@ header {
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
 }
+.burger-menu {
+  font-size: 30px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  color: white;
+  display: none; /* Hidden by default */
+}
 
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .burger-menu {
+      display: block; /* Show burger menu */
+      cursor: pointer;
+      margin-right: 20px;
+      font-size: 30px;  
+      color: white;
+  }
+
+  .nav-links {
+      display: none; /* Hide nav links */
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      background-color: #333;
+  }
+
+  .nav-links a {
+      margin: 10px 0;
+      padding: 10px;
+      width: 100%;
+  }
+
+  .nav-links.active {
+      display:contents; /* Show nav links when active */
+  }
+}
 .chisono {
   background-color: rgb(235, 230, 230);
   text-align: right;
@@ -177,8 +227,6 @@ header {
   color: white;
   cursor: pointer;
 }
-
-
 
 #popup {
   position: fixed;

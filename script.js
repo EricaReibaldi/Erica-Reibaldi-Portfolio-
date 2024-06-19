@@ -9,5 +9,11 @@ function popup() {
     }
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+  const burgerMenu = document.getElementById('burger-menu');
+  const navLinks = document.getElementById('menu');
 
-
+  burgerMenu.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+  });
+});
