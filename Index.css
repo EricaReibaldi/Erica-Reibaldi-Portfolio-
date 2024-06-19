@@ -3,86 +3,95 @@ body {
   padding: 0;
 }
 
-body h2{
-  color : rgb(44, 1, 80);
+body h2 {
+  color: rgb(44, 1, 80);
   font-size: 2em;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
-      display: flex;
-      flex-direction: row;
-      background-color:rgb(158, 121, 157);
-      justify-content: space-between;
-      padding: 15px;
-      align-items: center;
-    }
-    
-    #logo {
-      max-width: 50px;
-      height: 60px;
-    }
-    
-    #menu a{
-      font-size: 15px;
-      color:rgb(255, 255, 255);
-      padding: 10px;
-      margin: 8px;
-      background-color:rgba(77, 10, 80, 0.664);
-      font-family:Georgia, 'Times New Roman', Times, serif;
-    }
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(158, 121, 157);
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
 
-#menu a:hover{
+#logo {
+  max-width: 50px;
+  height: 60px;
+}
+
+#menu a {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 8px;
+  background-color: rgba(77, 10, 80, 0.664);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#menu a:hover {
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
 }
-    .chisono{
-      background-color: rgb(235, 230, 230);
-      text-align: right;
-      padding-right: 7%;
-      padding-left: 10%;
-      padding-bottom: 10px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 50px;
-      font-family:Georgia, 'Times New Roman', Times, serif;
-    }
 
-    .chisono img{
-      width: 337px;
-      height: auto;
-      padding-top: 4%;
-    } 
-
-
-    .progetti{
-      text-align: center;
-      background-color: rgb(235, 230, 230);
-      font-family:Georgia, 'Times New Roman', Times, serif;
-    } 
-
-
-
-#eden{
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  background-color: rgb(170, 129, 170); 
+.chisono {
+  background-color: rgb(235, 230, 230);
+  text-align: right;
+  padding-right: 7%;
+  padding-left: 10%;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: row;
-  gap: 100px; /* Ridotto il gap per migliorare la responsività */
-  padding-left: 20%; /* Ridotto il padding per migliorare la responsività */
-  padding-right: 20%; /* Ridotto il padding per migliorare la responsività */
+  align-items: center;
+  gap: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#foto1{
+.chisono img {
+  width: 337px;
+  height: auto;
+  padding-top: 4%;
+}
+
+
+.progetti {
+  text-align: center;
+  background-color: rgb(235, 230, 230);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#eden {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(170, 129, 170);
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  /* Ridotto il gap per migliorare la responsività */
+  padding-left: 20%;
+  /* Ridotto il padding per migliorare la responsività */
+  padding-right: 20%;
+  /* Ridotto il padding per migliorare la responsività */
+}
+
+#testo1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;  
+  flex-direction: column;
+}
+
+#foto1 {
   width: 400px;
   height: 225px;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 100px;
   padding-left: 10%;
   padding-right: 10%;
@@ -102,95 +111,101 @@ header {
   height: 300px;
 }
 
-    .info{
-      font-family: Georgia, 'Times New Roman', Times, serif; 
-      background-color: rgb(170, 129, 170); 
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 100px; /* Ridotto il gap per migliorare la responsività */
-      padding-left: 20%; /* Ridotto il padding per migliorare la responsività */
-      padding-right: 20%; /* Ridotto il padding per migliorare la responsività */
-    }
+.info {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(170, 129, 170);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  /* Ridotto il gap per migliorare la responsività */
+  padding-left: 20%;
+  /* Ridotto il padding per migliorare la responsività */
+  padding-right: 20%;
+  /* Ridotto il padding per migliorare la responsività */
+}
 
-    .info a{
-      color: rgb(0, 0, 0);
-    }
-    
-    #form{
-      background-color: rgb(170, 129, 170);
-      text-align: center;
-      padding-bottom: 10px;
-      padding-right: 10px;
-      padding-left: 25px;
-    }
+.info a {
+  color: rgb(0, 0, 0);
+}
 
-    #fname {
-      width: 100%;
-      margin-bottom: 10px;
-      background-color: #ffffff;
-      padding: 5px;
-      width: 70%;
-      border-radius: 5px;
-      font-size: 15px;
-      position:static;
-      border-color:rgb(104, 100, 104)
-    }
-    
-    #submit {background-color: #fff;
-      border-radius: 5px;
-       font-size: 15px;
-       position:static;    
-       width: 50%; 
-       padding: 5px;
-       border-color:rgb(104, 100, 104)
-       }
-    
-    #submit:hover{ 
-      background-color:rgb(71, 10, 71);
-      color: white;
-    }
+#form {
+  background-color: rgb(170, 129, 170);
+  text-align: center;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 25px;
+}
 
-    #dovetrovarmi iframe{
-      width: 100%;
-      border: 0;
-      left: 0;
-    }
+#fname {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  padding: 5px;
+  width: 70%;
+  border-radius: 5px;
+  font-size: 15px;
+  position: static;
+  border-color: rgb(104, 100, 104)
+}
 
-    .button {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #130311;
-      color: white;
-      cursor: pointer;
-  }
+#submit {
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 15px;
+  position: static;
+  width: 50%;
+  padding: 5px;
+  border-color: rgb(104, 100, 104)
+}
+
+#submit:hover {
+  background-color: rgb(71, 10, 71);
+  color: white;
+}
+
+#dovetrovarmi iframe {
+  width: 100%;
+  border: 0;
+  left: 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #130311;
+  color: white;
+  cursor: pointer;
+}
 
 
 
-  #popup {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      padding: 20px;
-      background-color: #e999e9;
-      color: white;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-    .myfooter{
-      background-color:rgb(110, 41, 110);
-      text-align: center;
-      padding: 3px;
-      color:white;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-    }
+#popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #e999e9;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
-  .myfooter a{
-    color: white;
-  }
+.myfooter {
+  background-color: rgb(110, 41, 110);
+  text-align: center;
+  padding: 3px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-  /* Media Queries per responsività */
+.myfooter a {
+  color: white;
+}
+
+
+/* Media Queries per responsività */
 @media (max-width: 768px) {
   .chisono {
     flex-direction: column;
@@ -245,7 +260,8 @@ header {
   }
 
   .chisono img {
-    max-width: 100%; /* Assicura che l'immagine non superi la larghezza del contenitore */
+    max-width: 100%;
+    /* Assicura che l'immagine non superi la larghezza del contenitore */
   }
 
   .project {
@@ -259,6 +275,7 @@ header {
   }
 
   .project-images img {
-    max-width: 100px; /* Dimensioni massime ridotte per schermi piccoli */
+    max-width: 100px;
+    /* Dimensioni massime ridotte per schermi piccoli */
   }
 }
