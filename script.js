@@ -17,3 +17,4 @@ document.addEventListener('DOMContentLoaded', () => {
       navLinks.classList.toggle('active');
   });
 });
+

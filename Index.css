@@ -52,6 +52,7 @@ header {
   display: flex;
   list-style: none;
   margin-left: auto;
+
 }
 
 .nav-links a {
@@ -89,7 +90,7 @@ header {
   }
 
   .nav-links.active {
-      display:contents; /* Show nav links when active */
+      display: flex; /* Show nav links when active */
   }
 }
 .chisono {
