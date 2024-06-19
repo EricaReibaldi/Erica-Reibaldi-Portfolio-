@@ -63,7 +63,7 @@ header {
 }
 
 /* Media query for mobile view */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .burger-menu {
       display: block; /* Show burger menu */
       cursor: pointer;
