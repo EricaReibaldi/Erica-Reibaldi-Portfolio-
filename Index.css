@@ -63,10 +63,10 @@ header {
 }
 
 /* Media query for mobile view */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .burger-menu {
-      display: block; /* Show burger menu */
-      cursor: pointer;
+      display:block; /* Show burger menu */
+      cursor:pointer;
       margin-right: 20px;
       font-size: 30px;  
       color: white;
