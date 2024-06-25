@@ -54,7 +54,6 @@ header {
   display: flex;
   list-style: none;
   margin-left: auto;
-
 }
 
 .nav-links a {
@@ -268,7 +267,7 @@ margin: 20px;
   font-family: playfair display, serif;
   color: white;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0);
   text-align: center;
 }
 
