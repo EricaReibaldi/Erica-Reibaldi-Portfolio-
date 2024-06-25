@@ -236,6 +236,11 @@ header {
   color: white;
 }
 
+#dovetrovarmi { 
+margin: 20px;
+}
+
+
 #dovetrovarmi iframe {
   width: 100%;
   border: 0;
