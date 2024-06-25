@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -6,7 +8,7 @@ body {
 body h2 {
   color: rgb(44, 1, 80);
   font-size: 2em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Playfair Display, serif;
 }
 
 header {
@@ -159,8 +161,6 @@ header {
   height: 225px;
 }
 
-
-
 #foto3 {
   width: 185px;
   height: 300px;
@@ -243,6 +243,7 @@ header {
   transform: translate(-50%, -50%);
   padding: 20px;
   background-color: #e999e9;
+  font-family: playfair display, serif;
   color: white;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
