@@ -127,6 +127,7 @@ header {
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: rgb(170, 129, 170);
   display: flex;
+  flex: 1;
   flex-direction: row;
   gap: 60px;
   /* Ridotto il gap per migliorare la responsività */
@@ -138,13 +139,15 @@ header {
 
 #testo1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  display: flex;  
+  display: flex; 
+  flex: 1; 
   flex-direction: column;
 }
 
 #foto1 {
   width: 400px;
   height: 225px;
+  flex: 1;
 }
 
 .container {
@@ -161,11 +164,13 @@ header {
 #foto2 {
   width: 400px;
   height: 225px;
+  flex: 1;
 }
 
 #foto3 {
   width: 185px;
   height: 300px;
+  flex: 1;
 }
 
 .info {
