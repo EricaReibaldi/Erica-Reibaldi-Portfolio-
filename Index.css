@@ -172,7 +172,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 100px;
+  gap: 200px;
   /* Ridotto il gap per migliorare la responsività */
   padding-left: 20%;
   /* Ridotto il padding per migliorare la responsività */
