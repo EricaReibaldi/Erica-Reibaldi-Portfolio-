@@ -118,6 +118,7 @@ header {
 
 .progetti {
   text-align: center;
+  padding-top: 8px;
   background-color: rgb(235, 230, 230);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
