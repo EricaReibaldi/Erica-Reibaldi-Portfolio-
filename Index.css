@@ -147,7 +147,7 @@ header {
 #foto1 {
   width: 400px;
   height: 225px;
-  flex: 1;
+  flex: 2;
 }
 
 .container {
@@ -164,13 +164,13 @@ header {
 #foto2 {
   width: 400px;
   height: 225px;
-  flex: 1;
+  flex: 2;
 }
 
 #foto3 {
   width: 185px;
   height: 300px;
-  flex: 1;
+  flex: 2;
 }
 
 .info {
