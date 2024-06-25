@@ -231,6 +231,9 @@ header {
   background-color: #130311;
   color: white;
   cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #popup {
@@ -266,42 +269,41 @@ header {
 
 /* Media Queries per responsività */
 @media (max-width: 768px) {
-  .chisono {
-    flex-direction: column;
-    text-align: center;
-    padding-right: 10%;
-    padding-left: 10%;
-    gap: 20px;
-  }
-
-  .info {
-    flex-direction: column;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    gap: 50px;
-  }
-}
-
-@media (max-width: 768px) {
   header {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .chisono {
-    flex-direction: column;
-    text-align: left;
-    gap: 10px;
+  .burger-menu {
+    display: block;
   }
 
-  .info {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    right: 0;
+  }
+
+  .nav-links a {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .chisono, .info {
     flex-direction: column;
     text-align: center;
-  }
-
-  .project {
-    flex-direction: column;
+    padding: 10px 5%;
+    gap: 20px;
   }
 }
 
@@ -320,21 +322,13 @@ header {
 
   .chisono img {
     max-width: 100%;
-    /* Assicura che l'immagine non superi la larghezza del contenitore */
   }
 
-  .project {
+  .project, .project-images {
     flex-direction: column;
-  }
-
-  .project-images {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
   }
 
   .project-images img {
     max-width: 100px;
-    /* Dimensioni massime ridotte per schermi piccoli */
   }
 }
