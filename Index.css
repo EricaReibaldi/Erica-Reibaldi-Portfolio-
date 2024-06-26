@@ -64,39 +64,6 @@ header {
   font-size: 18px;
 }
 
-/* Media query for mobile view */
-@media (max-width: 768px) {
-  .burger-menu {
-      display:block; /* Show burger menu */
-      cursor:pointer;
-      margin-right: 20px;
-      font-size: 30px;  
-      color: white;
-  }
-
-  .nav-links {
-      display: none; /* Hide nav links */
-      flex-direction: column;
-      width: 100%;
-      text-align: center;
-      background-color: #333;
-      position: absolute;
-      top: 60px;
-      right: 0;
-  }
-
-  .nav-links a {
-      margin: 10px 0;
-      padding: 10px;
-      width: 100%;
-  }
-
-  .nav-links.active {
-      display: flex; /* Show nav links when active */
-  }
-}
-
-
 .chisono {
   background-color: rgb(235, 230, 230);
   text-align: right;
@@ -133,11 +100,8 @@ header {
   display: flex;
   flex-direction: row;
   gap: 60px;
-  /* Ridotto il gap per migliorare la responsività */
   padding-left: 20%;
-  /* Ridotto il padding per migliorare la responsività */
   padding-right: 20%;
-  /* Ridotto il padding per migliorare la responsività */
 }
 
 #testo1 {
@@ -302,11 +266,16 @@ margin: 20px;
   }
 
   .burger-menu {
+    display:block; /* Show burger menu */
+    cursor:pointer;
+    margin-right: 20px;
+    font-size: 30px;  
+    color: white;
     display: block;
-  }
+}
 
-  .nav-links {
-    display: none;
+.nav-links {
+    display: none; /* Hide nav links */
     flex-direction: column;
     width: 100%;
     text-align: center;
@@ -314,17 +283,18 @@ margin: 20px;
     position: absolute;
     top: 60px;
     right: 0;
-  }
+}
 
-  .nav-links a {
+.nav-links a {
     margin: 10px 0;
     padding: 10px;
     width: 100%;
-  }
+}
 
-  .nav-links.active {
-    display: flex;
-  }
+.nav-links.active {
+    display: flex; /* Show nav links when active */
+}
+
 
   .chisono, .info {
     flex-direction: column;
