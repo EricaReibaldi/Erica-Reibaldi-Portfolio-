@@ -398,6 +398,9 @@ img {vertical-align: middle;}
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
+  .prev, .next,.text {font-size: 11px}
+}
+  
   #foto2 {
     max-width: 100%;
     height: auto;
@@ -487,6 +490,8 @@ img {vertical-align: middle;}
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
+  .prev, .next,.text {font-size: 11px}
+
   #testo2 {
     order: -1;
   }
@@ -495,6 +500,7 @@ img {vertical-align: middle;}
     max-width: 100%;
     height: auto;
   }
+
   
   #foto3 {
     max-width: 100%;
