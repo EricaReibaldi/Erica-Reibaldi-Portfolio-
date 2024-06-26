@@ -271,7 +271,8 @@ margin: 20px;
     margin-right: 20px;
     font-size: 30px;  
     color: white;
-  }
+    display: block;
+}
 
 .nav-links {
     display: none; /* Hide nav links */
@@ -374,6 +375,7 @@ margin: 20px;
     margin-right: 20px;
     font-size: 30px;  
     color: white;
+    display: block;
 }
 
 .nav-links {
@@ -396,6 +398,7 @@ margin: 20px;
 .nav-links.active {
     display: flex; /* Show nav links when active */
 }
+
 
   .chisono img {
     max-width: 100%;
