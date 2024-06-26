@@ -31,7 +31,6 @@ header {
   font-size: 15px;
   color: rgb(255, 255, 255);
   padding: 10px;
-  margin: 8px;
   background-color: rgba(77, 10, 80, 0.664);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -209,7 +208,7 @@ margin: 20px;
   padding: 10px 20px;
   position: fixed;
   top: 92%;
-  left: 65%;
+  left: 91%;
   background-color: #130311;
   color: white;
   cursor: pointer;
@@ -280,15 +279,20 @@ img {vertical-align: middle;}
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  margin-top: -30px; /* Posizionamento verticale */
+  font-size: 24px;
 }
 .prev {
-  left: 0;
+    left: 0;
+    margin-top: -30px; /* Posizionamento verticale */
+    font-size: 24px;
   border-radius: 3px 0 0 3px;
 }
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  color: rgb(199, 179, 179);
 }
+
 
 /* The dots/bullets/indicators */
 .dot {
@@ -447,6 +451,7 @@ img {vertical-align: middle;}
 .nav-links.active {
     display: flex; /* Show nav links when active */
 }
+
 
 
   .chisono img {
