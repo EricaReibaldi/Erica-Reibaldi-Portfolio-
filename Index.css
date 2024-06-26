@@ -271,8 +271,7 @@ margin: 20px;
     margin-right: 20px;
     font-size: 30px;  
     color: white;
-    display: block;
-}
+  }
 
 .nav-links {
     display: none; /* Hide nav links */
@@ -368,6 +367,35 @@ margin: 20px;
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .burger-menu {
+    display:block; /* Show burger menu */
+    cursor:pointer;
+    margin-right: 20px;
+    font-size: 30px;  
+    color: white;
+}
+
+.nav-links {
+    display: none; /* Hide nav links */
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.nav-links a {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.nav-links.active {
+    display: flex; /* Show nav links when active */
+}
 
   .chisono img {
     max-width: 100%;
