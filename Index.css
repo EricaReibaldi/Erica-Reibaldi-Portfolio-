@@ -311,11 +311,11 @@ img {vertical-align: middle;}
     font-size: 24px;
   border-radius: 3px 0 0 3px;
 }
+
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   color: rgb(199, 179, 179);
 }
-
 
 /* The dots/bullets/indicators */
 .dot {
@@ -461,6 +461,8 @@ img {vertical-align: middle;}
     height: auto;
   }
   .prev, .next,.text {font-size: 11px}
+
+ 
 }
  
 }
@@ -571,4 +573,6 @@ img {vertical-align: middle;}
     height: auto;
     padding-bottom: 10px;
   }
+
+  
 }

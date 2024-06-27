@@ -19,7 +19,7 @@ burgerMenu.addEventListener('click', function() {
 
 showSlides(slideIndex);
 showSlides2(slideIndex2);
-showSlides3(slideIndex2);
+showSlides3(slideIndex3);
 });
 
 let slideIndex = 1;
