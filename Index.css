@@ -131,15 +131,19 @@ header {
   background-color: rgb(170, 129, 170);
   display: flex;
   flex-direction: row;
+  justify-content: space-between; /* Distribuisce lo spazio equamente */
   align-items: center;
-  gap: 200px;
   padding-left: 20%;
   padding-right: 20%;
-box-shadow : 0 4px 8px rgba(0, 0, 0, 0.2);
- }
+}
 
 .info a {
   color: rgb(0, 0, 0);
+}
+
+
+#contatti {
+  text-align: center;
 }
 
 #form {
@@ -160,7 +164,7 @@ box-shadow : 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   font-size: 15px;
   position: static;
-  border-color: rgb(104, 100, 104)
+  border-color: rgb(104, 100, 104);
 }
 
 #form textarea {
@@ -173,7 +177,7 @@ box-shadow : 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   font-size: 15px;
   position: static;
-  border-color: rgb(104, 100, 104)
+  border-color: rgb(104, 100, 104);
 }
 
 #submit {
@@ -184,13 +188,14 @@ box-shadow : 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 50%;
   padding: 5px;
   cursor: pointer;
-  border-color: rgb(104, 100, 104)
+  border-color: rgb(104, 100, 104);
 }
 
 #submit:hover {
   background-color: rgb(71, 10, 71);
   color: white;
 }
+
 
 #dovetrovarmi { 
 margin: 20px;
