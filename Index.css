@@ -475,6 +475,12 @@ img {vertical-align: middle;}
 }
 
 
+.chisono, .info {
+  flex-direction: column;
+  text-align: center;
+  padding: 10px 5%;
+  gap: 20px;
+}
 
 .chisono img {
   max-width: 100%;
