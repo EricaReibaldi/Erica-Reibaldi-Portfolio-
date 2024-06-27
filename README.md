@@ -7,7 +7,7 @@
 - Anno accademico 2023/2024
 - Realizzazione di un sito web monopagina come portfolio personale
 
-# SCOPO DEL REPOSITORY:
+# Scopo del sito:
 Realizzazione di un sito mono-pagina come portfolio di una fashion designer, utile per mostrare i propri lavori e per favorire i contatti.
 
 # Obiettivo ed elementi principali della pagina:
