@@ -272,6 +272,8 @@ img {vertical-align: middle;}
 .mySlides2 {display: none}
 img {vertical-align: middle;}
 
+.mySlides3 {display: none}
+img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
@@ -328,6 +330,17 @@ img {vertical-align: middle;}
 }
 
 .dot2 {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #270921;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot3 {
   cursor: pointer;
   height: 8px;
   width: 8px;
