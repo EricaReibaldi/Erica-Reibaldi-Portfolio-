@@ -92,6 +92,13 @@ header {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.bigcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 20px;
+}
+
 
 #testo1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -103,8 +110,7 @@ header {
 #foto1 {
   width: 400px;
   height: 225px;
-  
-}
+  }
 
 .container {
   display: flex;
@@ -162,7 +168,6 @@ header {
 }
 
 #fname {
-  width: 100%;
   margin-bottom: 10px;
   background-color: #ffffff;
   padding: 5px;
