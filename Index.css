@@ -97,6 +97,7 @@ header {
   font-family: Georgia, 'Times New Roman', Times, serif;
   display: flex; 
   flex-direction: column;
+  text-align: left;
 }
 
 #foto1 {
@@ -121,10 +122,15 @@ header {
   height: 225px;
 }
 
+#testo2 {
+  text-align: right;
+}
+
 #foto3 {
   width: 185px;
   height: 300px;
 }
+
 
 .info {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -384,6 +390,7 @@ img {vertical-align: middle;}
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex; 
     flex-direction: column;
+    text-align: center;
   }
   
   #testo2 {
@@ -408,6 +415,10 @@ img {vertical-align: middle;}
   #foto2 {
     max-width: 100%;
     height: auto;
+  }
+
+  #testo2 {
+    text-align: center;
   }
   
   #foto3 {
@@ -481,6 +492,7 @@ img {vertical-align: middle;}
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex; 
     flex-direction: column;
+    text-align: center;
   }
   
   #foto1 {
@@ -502,6 +514,10 @@ img {vertical-align: middle;}
 
   #testo2 {
     order: -1;
+  }
+
+  #testo2 {
+    text-align: center;
   }
   
   #foto2 {
