@@ -81,11 +81,11 @@ let slideIndex3 = 1;
 
 
 function plusSlides3(n) {
-showSlides2(slideIndex2 += n);
+showSlides3(slideIndex3 += n);
 }
 
 function currentSlide3(n) {
-showSlides2(slideIndex2 = n);
+showSlides3(slideIndex3 = n);
 }
 
 function showSlides3(n) {
