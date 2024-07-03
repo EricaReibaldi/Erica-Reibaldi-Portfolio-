@@ -188,7 +188,6 @@ header {
 #form {
   background-color: rgb(170, 129, 170);
   text-align: center;
-  padding: 20px;
   border-radius: 10px;
   max-width: 500px;
   margin: 0 auto;
@@ -468,6 +467,11 @@ img {vertical-align: middle;}
     padding-bottom: 50px;
   }
 
+  .info {
+    flex-direction: column;
+    text-align: center;
+   } 
+
   .button {
     padding: 10px 20px;
     background-color: #130311;
@@ -662,6 +666,11 @@ img {vertical-align: middle;}
 .chisono {  
   padding-bottom: 50px;
 }
+
+.info {
+ flex-direction: column;
+ text-align: center;
+} 
 
 .chisono img {
   max-width: 100%;
