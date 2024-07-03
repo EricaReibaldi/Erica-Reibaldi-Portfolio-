@@ -394,6 +394,11 @@ img {vertical-align: middle;}
     flex-direction: column;
     align-items: flex-start;
   }
+  body h2 {
+    color: rgb(44, 1, 80);
+    font-size: 40px;
+    font-family: Playfair Display, serif;
+  }
 
   .burger-menu {
     display:block; /* Show burger menu */
@@ -446,11 +451,27 @@ img {vertical-align: middle;}
     flex-direction: column;
     text-align: center;
   }
+
+  #testo1 h2 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+  }
   
   #testo2 {
     order: -1;
   } 
 
+  #testo1 h2 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+  }
+  
   #foto1 {
     max-width: 100%;
     height: auto;
@@ -493,6 +514,12 @@ img {vertical-align: middle;}
     align-items: flex-start;
   }
 
+  body h2 {
+    color: rgb(44, 1, 80);
+    font-size: 40px;
+    font-family: Playfair Display, serif;
+  }
+  
   #menu {
     display: flex;
     flex-direction: column;
@@ -547,14 +574,21 @@ img {vertical-align: middle;}
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
   
-
-  
   #testo1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex; 
     flex-direction: column;
     text-align: center;
   }
+
+  #testo1 h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+  }
+  
   
   #foto1 {
     max-width: 100%;
@@ -575,10 +609,15 @@ img {vertical-align: middle;}
 
   #testo2 {
     order: -1;
+    text-align: center;
   }
 
-  #testo2 {
-    text-align: center;
+  #testo1 h2 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
   }
   
   #foto2 {
