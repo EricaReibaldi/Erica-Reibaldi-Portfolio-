@@ -96,14 +96,6 @@ header {
 
 
 
-.bigcontainer {
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-  padding: 20px;
-}
-
-
 #testo1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   display: flex; 
@@ -177,7 +169,7 @@ header {
 
 #contatti {
   text-align: center;
-  padding-inline: 10px;
+  padding-right: 10px;
 }
 
 
@@ -464,6 +456,12 @@ img {vertical-align: middle;}
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
+  .bigcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
   .progetti {
     text-align: center;
     background-color: rgb(235, 230, 230);
@@ -617,6 +615,7 @@ img {vertical-align: middle;}
 .chisono img {
   max-width: 100%;
 }
+
 
 .progetti {
   text-align: center;
