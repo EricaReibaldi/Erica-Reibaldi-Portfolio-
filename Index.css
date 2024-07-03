@@ -18,7 +18,11 @@ header {
   justify-content: space-between;
   padding: 10px;
   align-items: center;
-  position:relative;
+  position:fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -85,7 +89,13 @@ header {
   padding-top: 4%;
 }
 
-
+.bigcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 5px;
+}
+ 
 .progetti {
   text-align: center;
   padding-top: 8px;
@@ -460,7 +470,8 @@ img {vertical-align: middle;}
     display: flex;
     flex-direction: column;
     gap: 60px;
-  }
+    padding: 5px;
+ }
 
   .progetti {
     text-align: center;
@@ -616,6 +627,12 @@ img {vertical-align: middle;}
   max-width: 100%;
 }
 
+.bigcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 5px;
+}
 
 .progetti {
   text-align: center;
