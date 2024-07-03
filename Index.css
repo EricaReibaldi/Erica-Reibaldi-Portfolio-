@@ -29,16 +29,15 @@ header {
 
 #menu a {
   font-size: 15px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 10px;
-  background-color: rgba(255, 255, 255, 0.664);
+  background-color: rgba(77, 10, 80, 0.664);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #menu a:hover {
-  color: rgb(255, 255, 255);
-  font-style: bold;
-  background-color: rgb(77, 10, 80, 0.664);
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   border-radius: 5px;
 }
 
@@ -60,7 +59,7 @@ header {
 
 .nav-links a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: white;
   margin-left: 20px;
   font-size: 18px;
 }
@@ -411,6 +410,21 @@ img {vertical-align: middle;}
     display: block;
 }
 
+#menu a {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.664);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#menu a:hover {
+  color: rgb(255, 255, 255);
+  font-style: bold;
+  background-color: rgb(77, 10, 80, 0.664);
+  border-radius: 5px;
+}
+
 .nav-links {
     display: none; /* Hide nav links */
     flex-direction: column;
@@ -535,7 +549,21 @@ img {vertical-align: middle;}
     margin-top: 10px;
     font-size: 30px;  
     color: white;
-  
+}
+
+#menu a {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.664);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#menu a:hover {
+  color: rgb(255, 255, 255);
+  font-style: bold;
+  background-color: rgb(77, 10, 80, 0.664);
+  border-radius: 5px;
 }
 
 .nav-links {
@@ -557,7 +585,7 @@ img {vertical-align: middle;}
 
 .nav-links.active {
   display: flex; /* Show nav links when active */
-  background-color: rgb(255, 255, 255);
+  background-color:  rgb(255, 255, 255);
 }
 
 .chisono, .info {
