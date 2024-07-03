@@ -7,7 +7,7 @@ body {
 
 body h2 {
   color: rgb(44, 1, 80);
-  font-size: 40px;
+  font-size: 35px;
   font-family: Playfair Display, serif;
 }
 
@@ -116,7 +116,7 @@ header {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: italic;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #foto1 {
@@ -149,7 +149,7 @@ header {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: italic;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #foto3 {
@@ -396,7 +396,7 @@ img {vertical-align: middle;}
   }
   body h2 {
     color: rgb(44, 1, 80);
-    font-size: 40px;
+    font-size: 35px;
     font-family: Playfair Display, serif;
   }
 
@@ -457,7 +457,7 @@ img {vertical-align: middle;}
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: italic;
-    font-size: 30px;
+    font-size: 25px;
   }
   
   #testo2 {
@@ -469,7 +469,7 @@ img {vertical-align: middle;}
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: italic;
-    font-size: 30px;
+    font-size: 25px;
   }
   
   #foto1 {
@@ -516,10 +516,10 @@ img {vertical-align: middle;}
 
   body h2 {
     color: rgb(44, 1, 80);
-    font-size: 40px;
+    font-size: 35px;
     font-family: Playfair Display, serif;
   }
-  
+
   #menu {
     display: flex;
     flex-direction: column;
@@ -586,7 +586,7 @@ img {vertical-align: middle;}
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: italic;
-    font-size: 30px;
+    font-size: 25px;
   }
   
   
@@ -617,7 +617,7 @@ img {vertical-align: middle;}
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: italic;
-    font-size: 30px;
+    font-size: 25px;
   }
   
   #foto2 {
