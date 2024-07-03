@@ -464,7 +464,7 @@ img {vertical-align: middle;}
     order: -1;
   } 
 
-  #testo1 h2 {
+  #testo2 h2 {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -581,7 +581,7 @@ img {vertical-align: middle;}
     text-align: center;
   }
 
-  #testo1 h1 {
+  #testo1 h2 {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -612,7 +612,7 @@ img {vertical-align: middle;}
     text-align: center;
   }
 
-  #testo1 h2 {
+  #testo2 h2 {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 600;
