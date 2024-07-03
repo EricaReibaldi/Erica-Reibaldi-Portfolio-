@@ -547,7 +547,15 @@ img {vertical-align: middle;}
   }
 
   .prev, .next,.text {font-size: 11px}
-
+  
+  #form {
+    background-color: rgb(170, 129, 170);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
   #submit {
     background-color: #fff;
     border-radius: 5px;
