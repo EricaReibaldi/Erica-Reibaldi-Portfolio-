@@ -656,7 +656,7 @@ img {vertical-align: middle;}
 .bigcontainer {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 20px;
   padding: 5px;
 }
 
@@ -730,7 +730,7 @@ img {vertical-align: middle;}
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
     font-style: italic;
-    font-size: 16px;
+    font-size: 14px;
     align-items: column;
     font-optical-sizing: auto
   }
