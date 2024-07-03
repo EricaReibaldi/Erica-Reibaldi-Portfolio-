@@ -7,7 +7,7 @@ body {
 
 body h2 {
   color: rgb(44, 1, 80);
-  font-size: 2em;
+  font-size: 40px;
   font-family: Playfair Display, serif;
 }
 
@@ -114,6 +114,7 @@ header {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: italic;
+  font-size: 30px;
 }
 
 #foto1 {
@@ -146,6 +147,7 @@ header {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: italic;
+  font-size: 30px;
 }
 
 #foto3 {
@@ -475,11 +477,12 @@ img {vertical-align: middle;}
     max-width: 100%;
     height: auto;
   }
+
   .prev, .next,.text {font-size: 11px}
 
- 
 }
  
+}
 
 
 @media (max-width: 480px) {
