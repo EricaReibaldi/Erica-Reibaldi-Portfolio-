@@ -240,6 +240,8 @@ header {
   font-style: italic;
   font-size: 20px;
   align-items: column;
+  display: flex;
+  font-optical-sizing: auto;
 }
 
 #dovetrovarmi { 
@@ -584,6 +586,7 @@ img {vertical-align: middle;}
     font-optical-sizing: auto;
     font-size: 18px;
     align-items: column;
+    display: flex;
   }
 
 }
@@ -789,6 +792,8 @@ img {vertical-align: middle;}
     font-style: italic;
     font-size: 14px;
     align-items: column;
-    font-optical-sizing: auto
+    font-optical-sizing: auto;
+    display: flex;
   }
+
 }
