@@ -55,7 +55,6 @@ header {
   display: flex;
   list-style: none;
   margin-left: auto;
-  
 }
 
 .nav-links a {
@@ -75,9 +74,10 @@ header {
   flex-direction: row;
   align-items: center;
   gap: 50px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+
 
 .chisono img {
   width: 337px;
@@ -149,6 +149,7 @@ header {
   align-items: center;
   padding-left: 20%;
   padding-right: 20%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .info a {
@@ -404,15 +405,14 @@ img {vertical-align: middle;}
 
 .nav-links.active {
     display: flex; /* Show nav links when active */
-    
 }
-
 
   .chisono, .info {
     flex-direction: column;
     text-align: center;
     padding: 10px 5%;
     gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
   .progetti {
@@ -510,12 +510,12 @@ img {vertical-align: middle;}
   display: flex; /* Show nav links when active */
 }
 
-
 .chisono, .info {
   flex-direction: column;
   text-align: center;
   padding: 10px 5%;
   gap: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .chisono img {
