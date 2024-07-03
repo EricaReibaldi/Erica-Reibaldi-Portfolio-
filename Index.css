@@ -84,7 +84,6 @@ header {
 }
 
 
-
 .chisono img {
   width: 337px;
   height: auto;
@@ -105,7 +104,6 @@ header {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 
 
 #testo1 {
@@ -283,6 +281,21 @@ margin: 20px;
   color: white;
   }
 
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
+    cursor: pointer;
+    color: rgb(255, 255, 255); 
+    background: none;
+    border: none;
+}
+
+.close-button:hover {
+    color: rgb(110, 41, 110); /* Cambia il colore della "X" al passaggio del mouse */
+}
 
 .myfooter {
   background-color: rgb(110, 41, 110);
