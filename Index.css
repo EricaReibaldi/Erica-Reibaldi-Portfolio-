@@ -40,6 +40,7 @@ header {
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
 }
+
 .burger-menu {
   font-size: 30px;
   position: absolute;
@@ -54,7 +55,7 @@ header {
   display: flex;
   list-style: none;
   margin-left: auto;
-
+  
 }
 
 .nav-links a {
