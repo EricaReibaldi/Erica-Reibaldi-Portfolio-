@@ -177,7 +177,9 @@ header {
 
 #contatti {
   text-align: center;
+  padding-inline: 10px;
 }
+
 
 #form {
   background-color: rgb(170, 129, 170);
@@ -187,6 +189,7 @@ header {
   max-width: 500px;
   margin: 0 auto;
 }
+
 
 #fname {
   margin-bottom: 10px;
@@ -228,6 +231,13 @@ header {
   color: white;
 }
 
+#form p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 20px;
+  align-items: column;
+}
 
 #dovetrovarmi { 
 margin: 20px;
@@ -519,6 +529,14 @@ img {vertical-align: middle;}
 
   .prev, .next,.text {font-size: 11px}
 
+  #form p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    align-items: column;
+  }
+
 }
  
 }
@@ -637,7 +655,7 @@ img {vertical-align: middle;}
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-  .prev, .next,.text {font-size: 11px}
+  
 
   #testo2 {
     order: -1;
@@ -664,5 +682,13 @@ img {vertical-align: middle;}
     padding-bottom: 10px;
   }
 
-  
+  .prev, .next,.text {font-size: 11px}
+
+  #form p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    align-items: column;
+  }
 }
