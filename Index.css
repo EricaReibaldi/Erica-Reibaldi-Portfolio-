@@ -253,11 +253,7 @@ margin: 20px;
 }
 
 .button {
-  display: inline-block;
   padding: 10px 20px;
-  position: fixed;
-  top: 92%;
-  left: 91%;
   background-color: #130311;
   color: white;
   cursor: pointer;
@@ -466,6 +462,20 @@ img {vertical-align: middle;}
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
+  .chisono {  
+    padding-bottom: 50px;
+  }
+
+  .button {
+    padding: 10px 20px;
+    background-color: #130311;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
   .bigcontainer {
     display: flex;
     flex-direction: column;
@@ -624,8 +634,23 @@ img {vertical-align: middle;}
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.chisono {  
+  padding-bottom: 50px;
+}
+
 .chisono img {
   max-width: 100%;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #130311;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
 }
 
 .bigcontainer {
