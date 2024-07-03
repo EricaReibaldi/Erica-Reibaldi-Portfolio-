@@ -544,6 +544,7 @@ img {vertical-align: middle;}
     font-style: italic;
     font-size: 20px;
     align-items: column;
+    font-optical-sizing: auto;
   }
 
 }
@@ -706,5 +707,6 @@ img {vertical-align: middle;}
     font-style: italic;
     font-size: 20px;
     align-items: column;
+    font-optical-sizing: auto;
   }
 }
