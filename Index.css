@@ -59,6 +59,7 @@ header {
   display: flex;
   list-style: none;
   margin-left: auto;
+  margin-right: 20px;
 }
 
 .nav-links a {
@@ -756,7 +757,7 @@ img {vertical-align: middle;}
     max-width: 500px;
     margin: 0 auto;
   }
-  
+
 #submit {
   background-color: #fff;
   border-radius: 5px;
