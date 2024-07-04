@@ -167,8 +167,8 @@ header {
   flex-direction: row;
   justify-content: space-between; /* Distribuisce lo spazio equamente */
   align-items: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin: 0;
 }
@@ -493,6 +493,8 @@ img {vertical-align: middle;}
     flex-direction: column;
     text-align: center;
     margin: 0;
+    padding-left: 0px;
+    padding-right: 0px;
    } 
 
   .button {
