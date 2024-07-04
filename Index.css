@@ -203,7 +203,7 @@ header {
   width: 70%;
   border-radius: 5px;
   font-size: 15px;
-  border: 1px solid rgb(104, 100, 104);
+  border: 2px solid rgba(146, 116, 146, 0.479);
 }
 
 #form textarea {
@@ -214,8 +214,7 @@ header {
   padding: 5px;
   border-radius: 5px;
   font-size: 15px;
-  border: 1px solid rgb(104, 100, 104);
-  text-align: center;
+  border: 2px solid rgba(146, 116, 146, 0.479);
 }
 
 #submit {
@@ -577,6 +576,12 @@ img {vertical-align: middle;}
 
   .prev, .next,.text {font-size: 11px}
 
+  #dovetrovarmi { 
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    }
 
   #form {
     background-color: rgb(170, 129, 170);
@@ -843,5 +848,12 @@ img {vertical-align: middle;}
     padding-right: 10px;
     width: calc(100% - 20px);
   }
+
+  #dovetrovarmi { 
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    }
 
 }
