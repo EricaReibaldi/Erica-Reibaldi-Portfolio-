@@ -243,7 +243,7 @@ header {
 }
 
 #form p {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 254, 254);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 500;
   font-style: italic;
@@ -588,7 +588,6 @@ img {vertical-align: middle;}
     border-radius: 10px;
     max-width: 500px;
     margin: 0 auto;
-    border:#130311;
     border: 2px solid rgb(255, 255, 255); /* Imposta il bordo */
     padding-top: 20px;
     padding-right: 20px;
@@ -810,7 +809,6 @@ img {vertical-align: middle;}
     border-radius: 10px;
     max-width: 500px;
     margin: 0 auto;
-    border:#130311;
     border: 2px solid rgb(255, 255, 255); /* Imposta il bordo */
     padding-top: 20px;
     padding-right: 20px;
