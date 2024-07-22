@@ -22,7 +22,7 @@ L'obiettivo è quello di creare un sito web html responsive che comprendesse i p
 - Mappa all'interno della sezione Dove Trovarmi;
 - Footer con copyright e rimando alla e-mail;
 
-# Elementi descrittivi aggiuntivi: 
+# Elementi aggiuntivi: 
 Oltre agli elementi principali, il sito include:
 - Burger menù per semplificare la navigazione nel sito in modalità responsive;
 - Pop-up (Scopri di pù) con rimando al profilo Instagram;
