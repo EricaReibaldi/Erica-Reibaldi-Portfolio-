@@ -24,13 +24,13 @@ L'obiettivo è quello di creare un sito web html responsive che comprendesse i p
 
 # Elementi descrittivi aggiuntivi: 
 Oltre agli elementi principali, il sito include:
-Burger menù per semplificare la navigazione nel sito in modalità responsive;
-Pop-up (Scopri di pù) con rimando al profilo Instagram;
-Slider: Sezione che scorre immagini e progetti in evidenza;
-Modulo di contatto: Integrazione delle form Netlify per raccogliere contatti;
-Icone Social e di contatto;
-Responsive: Design ottimizzato per mobile, tablet e desktop;
-Integrazione con Google Maps per la localizzazione;
+- Burger menù per semplificare la navigazione nel sito in modalità responsive;
+- Pop-up (Scopri di pù) con rimando al profilo Instagram;
+- Slider: Sezione che scorre immagini e progetti in evidenza;
+- Modulo di contatto: Integrazione delle form Netlify per raccogliere contatti;
+- Icone Social e di contatto;
+- Responsive: Design ottimizzato per mobile, tablet e desktop;
+- Integrazione con Google Maps per la localizzazione;
 
 
 # Per la realizzazione del sito ho utilizzato:
